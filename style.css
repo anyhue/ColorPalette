@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  padding: 70px;
+  background-color: rgb(245, 245, 245);
+  font-family: "Pretendard-Regular";
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+  gap: 50px;
+  pointer-events: none;
+}
+
+.box {
+  width: 220px;
+  height: 168px;
+  padding: 12px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(220, 220, 220);
+}
+
+.palette-list {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+  margin-bottom: 10px;
+}
+
+.palette {
+  width: 50px;
+  height: 100px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  width: 130px;
+  padding: 7px;
+  margin-left: 45px;
+  font-family: "Pretendard-Regular";
+  font-size: 13px;
+  background-color: rgb(235, 235, 235);
+  pointer-events: auto;
+}
+
+button:hover {
+  background: rgb(200, 200, 200);
+}
+
+.changedBtn {
+  color: grey;
+}
+
+.category {
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgb(220, 220, 220);
+}
+
+.category:hover {
+  background: rgb(235, 235, 235);
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  pointer-events: none;
+}
+
+.changedCategory {
+  margin: 10px;
+  background-color: rgb(220, 220, 220);
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgb(220, 220, 220);
+}
